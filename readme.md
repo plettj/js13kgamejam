@@ -13,16 +13,17 @@
 
 ##### Enemies
 
--
+- Angels + Devils, that travel around and shoot beams at you
+- Road Paved in Gold + Fire, that affects health as you move over it
+- Gumbas (good + evil versions), or other types, that just walk around and stuff
 
 ##### Power-ups
 
--
+- 
 
 ### Plan
 
--
--
+- 
 
 ### Progress
 
