@@ -1,6 +1,8 @@
 import { init, Sprite, GameLoop } from "kontra";
 
-const { canvas } = init();
+const { canvas, context } = init();
+
+const ASPECT_RATIO = 4 / 3;
 
 let sprite = Sprite({
   x: 100, // starting x,y position of the sprite
@@ -12,6 +14,7 @@ let sprite = Sprite({
 });
 
 let loop = GameLoop({
+  clearCanvas: true,
   // create the main game loop
   update: function () {
     // update the game state
@@ -24,6 +27,12 @@ let loop = GameLoop({
     }
   },
   render: function () {
+    canvas.width = window.innerWidth / 2;
+    canvas.height = canvas.width / ASPECT_RATIO;
+
+    context.fillStyle = "black";
+    context.fillRect(0, 0, canvas.width, canvas.height);
+
     // render the game state
     sprite.render();
   },

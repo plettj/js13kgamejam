@@ -4,11 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Game Jam :)</title>
+    <style>
+      .container {
+        width: 100%;
+        height: 100%;
+      }
+      #main {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+    </style>
   </head>
   <body>
-    <div id="app">
-      <canvas id="main" width="640px" height="480px"></canvas>
+    <div class="container">
+      <canvas id="main"></canvas>
     </div>
+
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
