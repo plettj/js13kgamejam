@@ -1,9 +1,19 @@
 import { defineConfig } from "vite";
-import { terser } from "rollup-plugin-terser";
-
+import kontra from "rollup-plugin-kontra";
 export default defineConfig({
-  plugins: [
-    terser({
+  resolve: {
+    alias: {},
+  },
+  build: {
+    minify: "terser",
+    rollupOptions: {
+      plugins: [
+        kontra({
+          debug: false,
+        }),
+      ],
+    },
+    terserOptions: {
       toplevel: true,
       compress: {
         defaults: true,
@@ -27,6 +37,6 @@ export default defineConfig({
         comments: false,
         ecma: 2020,
       },
-    }),
-  ],
+    },
+  },
 });
