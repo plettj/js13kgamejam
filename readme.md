@@ -31,7 +31,7 @@
 | ---- | :------------: | ------------ |
 | ✅  | This is a task | Some dude    |
 | ✅  |  Canvas size is automatic  | josiah + zack |
-| ⬜️  |  Not complete  | another dude |
-| ⬜️  |  Not complete  | another dude |
-| ⬜️  |  Not complete  | another dude |
-| ⬜️  |  Not complete  | another dude |
+| ✅  |  make a default tileset with 10x10 images  | josiah |
+| ⬜️  |  use the default tileset without it being fuzzy  | josiah + zack |
+| ⬜️  |  get the controls working for the character  | josiah |
+| ⬜️  |  get physics working for stuff  | josiah + zack |
