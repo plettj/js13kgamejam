@@ -4,7 +4,6 @@
 
 | Done |      Task      | Assignment   |
 | :--: | :------------: | ------------ |
-| ✅ | This is a task | Some dude    |
 | ✅ |  Canvas size is automatic  | josiah + zack |
 | ✅ |  make a default tileset with 10x10 images  | josiah |
 | ⬜️ |  use the default tileset without it being fuzzy  | zack |
