@@ -1,4 +1,4 @@
-import TilemapSrc from "./assets/tilemap.jpg";
+import TilemapSrc from "./assets/Sprite-0001.webp";
 
 export default async function loadAssets() {
   const promises = [];

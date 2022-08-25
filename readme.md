@@ -30,4 +30,8 @@
 | Done |      Task      | Assignment   |
 | ---- | :------------: | ------------ |
 | ✅  | This is a task | Some dude    |
+| ✅  |  Canvas size is automatic  | josiah + zack |
+| ⬜️  |  Not complete  | another dude |
+| ⬜️  |  Not complete  | another dude |
+| ⬜️  |  Not complete  | another dude |
 | ⬜️  |  Not complete  | another dude |
