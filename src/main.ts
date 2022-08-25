@@ -1,7 +1,8 @@
 import { init, Sprite, GameLoop, TileEngine } from "kontra";
-import loadAssets from "./assets";
+//import loadAssets from "./assets";
+import worldMap from "./world/map";
 
-const { canvas, context } = init();
+const { canvas } = init();
 
 const WINDOW_SIZE = {
   x: 16,
@@ -27,40 +28,19 @@ window.onresize = () => {
 };
 
 let sprite = Sprite({
-  x: 100, // starting x,y position of the sprite
-  y: 80,
+  x: 0, // starting x,y position of the sprite
+  y: 0,
   color: "blue", // fill color of the sprite rectangle
   width: unit, // width and height of the sprite rectangle
-  height: unit * 2,
+  height: unit,
   dx: 2, // move the sprite 2px to the right every frame
 });
 
 async function main() {
-  const { tilemap } = await loadAssets();
 
-  let tileEngine = TileEngine({
-    tilewidth: 20,
-    tileheight: 20,
-    width: WINDOW_SIZE.x,
-    height: WINDOW_SIZE.y,
-    tilesets: [
-      {
-        firstgid: 1,
-        image: tilemap,
-      },
-    ],
-    layers: [
-      {
-        name: "collision",
-        data: [
-          0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 7, 7, 8, 0, 0, 0, 0, 6, 27, 24,
-          24, 25, 0, 0, 0, 0, 23, 24, 24, 24, 26, 8, 0, 0, 0, 23, 24, 24, 24,
-          24, 26, 8, 0, 0, 23, 24, 24, 24, 24, 24, 25, 0, 0, 40, 41, 41, 10, 24,
-          24, 25, 0, 0, 0, 0, 0, 40, 41, 41, 42, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        ],
-      },
-    ],
-  });
+  let tileMap = await worldMap();
+
+  let tileEngine = TileEngine(tileMap);
 
   let loop = GameLoop({
     clearCanvas: true,
@@ -76,8 +56,6 @@ async function main() {
       }
     },
     render: function () {
-      context.fillStyle = "grey";
-      context.fillRect(0, 0, canvas.width, canvas.height);
 
       // render the game state
       tileEngine.render();

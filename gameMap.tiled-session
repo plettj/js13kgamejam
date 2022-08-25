@@ -1,0 +1,27 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+    },
+    "last.imagePath": "C:/Users/jlple/Programming/Hackathons/Js13kGames (August 2022)/src/assets",
+    "map.height": 48,
+    "map.lastUsedFormat": "json",
+    "map.tileHeight": 10,
+    "map.tileWidth": 10,
+    "map.width": 160,
+    "openFiles": [
+    ],
+    "project": "gameMap.tiled-project",
+    "recentFiles": [
+    ],
+    "tileset.lastUsedFormat": "json",
+    "tileset.tileSize": {
+        "height": 10,
+        "width": 10
+    }
+}
