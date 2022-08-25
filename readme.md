@@ -29,15 +29,15 @@
 
 | Done |      Task      | Assignment   |
 | ---- | :------------: | ------------ |
-| ✅  | This is a task | Some dude    |
-| ✅  |  Canvas size is automatic  | josiah + zack |
-| ✅  |  make a default tileset with 10x10 images  | josiah |
-| ⬜️  |  use the default tileset without it being fuzzy  | zack |
-| ⬜️  |  get the controls working for the character  | zack |
-| ⬜️  |  get physics working for stuff  | zack |
-| ⬜️  |  draw an actually nice tileset  | josiah |
-| ⬜️  |  finalize the design of all the elements of the game  | josiah |
-| ⬜️  |  make the user interface  | josiah |
-| ⬜️  |  draw an actually nice background  | josiah |
-| ⬜️  |  draw an actually nice character  | josiah |
-| ⬜️  |  draw actually nice enemies and stuff  | josiah |
+| ✅ | This is a task | Some dude    |
+| ✅ |  Canvas size is automatic  | josiah + zack |
+| ✅ |  make a default tileset with 10x10 images  | josiah |
+| ⬜️ |  use the default tileset without it being fuzzy  | zack |
+| ⬜️ |  get the controls working for the character  | zack |
+| ⬜️ |  get physics working for stuff  | zack |
+| ⬜️ |  draw an actually nice tileset  | josiah |
+| ⬜️ |  finalize the design of all the elements of the game  | josiah |
+| ⬜️ |  make the user interface  | josiah |
+| ⬜️ |  draw an actually nice background  | josiah |
+| ⬜️ |  draw an actually nice character  | josiah |
+| ⬜️ |  draw actually nice enemies and stuff  | josiah |
