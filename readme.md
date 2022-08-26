@@ -7,16 +7,29 @@
 | ✅ |  Canvas size is automatic  | josiah + zack |
 | ✅ |  make a default tileset with 10x10 images  | josiah |
 | ⬜️ |  use the default tileset without it being fuzzy  | zack |
-| ⬜️ |  get the controls working for the character  | zack |
-| ⬜️ |  get physics working for stuff  | zack |
-| ⬜️ |  draw an actually nice tileset  | josiah |
+| ⬜️ |  get the controls working for the character (consult josiah if unsure about UX decisions)  | zack |
+| ⬜️ |  get physics working for allllllllll of the stuffffffffffffff  | zack |
+| ✅ |  draw an actually nice tileset  | josiah |
+| ⬜️ |  draw semisolids for tileset  | josiah |
 | ⬜️ |  finalize the design of all the elements of the game  | josiah |
 | ⬜️ |  make the user interface  | josiah |
+| ⬜️ |  draw an actually nice character + with some sort of ability like shooting fireballs when in hell, making a pulse of goodness (malay, also collects stuff) | josiah |
 | ⬜️ |  draw an actually nice background  | josiah |
-| ⬜️ |  draw an actually nice character  | josiah |
-| ⬜️ |  draw actually nice enemies and stuff  | josiah |
+| ⬜️ |  draw an actually nice other type of block (metal?)  | josiah |
+| ⬜️ |  draw actually nice spikes + moving platforms + lazers + enemies + spikes + key + gate + 2 currencies (these are what change his health!)  | josiah |
+| ⬜️ |  draw actually nice extra decorations for game  | josiah |
+| ⬜️ |  figure out how the audio's gonna work  | josiah + zack |
 
 ### Concept:
+
+Actually trying to make your character die [make spikes appear and avoid angels].
+Initially it seems normal, but its a loop and the only way out is to die... which brings you to a "shadow realm."
+An extension of the above idea, but there's tiers of deathness that you can move up and down through, physically and conceptually.
+The closer you are to enlightenment, the more power you have.
+Action game... where every time you die, you learn more about the levels each time you go.
+Your health is decreasing, so you want to "survive" as long as you can in order to die.
+Thread the needle between enlightenment and early death, in order to get to the end.
+Every time you do something that gives you an advantage, you lose time in that attempt, but gain future chances.
 
 - Open-world platformer, with a sort of heaven-hell visual and storyline theme.
 - You can die from losing all your health... but also from gaining *too much* health! Your survival is an eternal balance between extremes.
