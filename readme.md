@@ -19,6 +19,9 @@
 | ⬜️ |  draw actually nice spikes + moving platforms + lazers + enemies + spikes + key + gate + 2 currencies (these are what change his health!)  | josiah |
 | ⬜️ |  draw actually nice extra decorations for game  | josiah |
 | ⬜️ |  figure out how the audio's gonna work  | josiah + zack |
+| ⬜️ |  design the whole world  | josiah |
+| ⬜️ |  if josiah finishes all other tasks here listed, he will consider his job complete!!!  | josiah |
+| ⬜️ |  if zack does all the things that josiah isn't on the list to do, then we should be totally boppin'!!!  | zack |
 
 ### Concept:
 
