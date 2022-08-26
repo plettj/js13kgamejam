@@ -15,11 +15,14 @@
 | ⬜️ |  make the user interface  | josiah |
 | ⬜️ |  draw an actually nice character + death animation + two modes of being: evil wizard, enlightened priest, with some sort of ability like shooting fireballs when in hell, making a pulse of goodness (malay, also collects stuff) when in heaven | josiah |
 | ⬜️ |  draw an actually nice background  | josiah |
+| ⬜️ |  figure out a way for the   | josiah |
 | ⬜️ |  draw an actually nice other type of block (metal?)  | josiah |
 | ⬜️ |  draw actually nice spikes + moving platforms + lazers + enemies + spikes + key + gate + 2 currencies (these are what change his health!)  | josiah |
-| ⬜️ |  draw actually nice extra decorations for game  | josiah |
+| ⬜️ |  draw actually nice extra decorations for game (like lava or gold on the stones)  | josiah |
 | ⬜️ |  figure out how the audio's gonna work  | josiah + zack |
 | ⬜️ |  design the whole world  | josiah |
+| ⬜️ |  write the whole story  | josiah + zack |
+| ⬜️ |  design and make the whole UI + corresponding icons  | josiah |
 | ⬜️ |  if josiah finishes all other tasks here listed, he will consider his job complete!!!  | josiah |
 | ⬜️ |  if zack does all the things that josiah isn't on the list to do, then we should be totally boppin'!!!  | zack |
 
