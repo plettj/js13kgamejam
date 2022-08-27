@@ -708,12 +708,11 @@ export default async function worldMap() {
     nextobjectid: 1,
     orientation: "orthogonal",
     renderorder: "right-down",
-    tiledversion: "1.9.1",
     tileheight: 10,
     tilesets: [
       {
         firstgid: 1,
-        source: tileset,
+        image: tileset,
       },
     ],
     tilewidth: 10,
