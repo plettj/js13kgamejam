@@ -1,9 +1,8 @@
 import { init, Sprite, GameLoop, TileEngine } from "kontra";
-import Player from "./player";
 //import loadAssets from "./assets";
 import worldMap from "./world/map";
 
-const { canvas, context } = init();
+const { canvas } = init();
 
 const WINDOW_SIZE = {
   x: 16,
@@ -40,8 +39,6 @@ let sprite = Sprite({
 async function main() {
   const tileMap = await worldMap();
   const tileEngine = TileEngine(tileMap);
-
-  const player = new Player();
 
   const loop = GameLoop({
     clearCanvas: true,
