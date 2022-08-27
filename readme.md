@@ -16,12 +16,12 @@
 | ✅ |  draw gold spikes  | josiah |
 | ✅ |  draw road paved in gold  | josiah |
 | ✅ |  (possibly) corners for road paved in gold  | josiah |
-| ⬜️ |  draw floating, collectable fire  | josiah |h
+| ⬜️ |  draw floating, collectable fire  | josiah |
 | ⬜️ |  make the user interface  | josiah |
 | ⬜️ |  draw an actually nice character + death animation + two modes of being: evil wizard, enlightened priest, with some sort of ability like shooting fireballs when in hell, making a pulse of goodness (malay, also collects stuff) when in heaven | josiah |
 | ✅ |  draw an actually nice other type of block (metal?)  | josiah |
-| ⬜️ |  draw actually nice spikes + moving platforms + lazers + enemies + spikes + key + gate + 2 currencies (these are what change his health!)  | josiah |
-| ⬜️ |  draw actually nice extra decorations for game (like lava or gold on the stones)  | josiah |
+| ⬜️ |  draw lazers + enemies + key + gate  | josiah |
+| ⬜️ |  (possibly) draw actually nice extra decorations for game (like lava or gold on the stones)  | josiah |
 | ⬜️ |  figure out how the audio's gonna work  | josiah + zack |
 | ⬜️ |  design the whole world  | josiah |
 | ⬜️ |  write the whole story  | josiah + zack |
