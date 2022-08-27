@@ -1,4 +1,4 @@
-import TilesetSrc from "./assets/Sprite-0001.webp";
+import TilesetSrc from "./assets/tileset.png";
 import TilemapSrc from "./assets/mapFile.json";
 
 export default async function loadAssets() {
@@ -9,7 +9,9 @@ export default async function loadAssets() {
 
   promises.push(new Promise((res) => (tileset.onload = res)));
 
+  const tilemap = TilemapSrc;
+
   await Promise.all(promises);
 
-  return { tileset, TilemapSrc };
+  return { tileset, tilemap };
 }

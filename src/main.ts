@@ -1,5 +1,4 @@
 import { init, Sprite, GameLoop, TileEngine } from "kontra";
-//import loadAssets from "./assets";
 import worldMap from "./world/map";
 
 const { canvas } = init();
@@ -33,7 +32,7 @@ let sprite = Sprite({
   color: "blue", // fill color of the sprite rectangle
   width: unit, // width and height of the sprite rectangle
   height: unit,
-  dx: 2, // move the sprite 2px to the right every frame
+  dx: 0, // move the sprite 2px to the right every frame
 });
 
 async function main() {
