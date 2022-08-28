@@ -12,17 +12,22 @@
 | ✅ |  draw an actually nice tileset  | josiah |
 | ✅ |  draw semisolids for tileset  | josiah |
 | ✅ |  finalize the design of all the elements of the game  | josiah |
-| ⬜️ |  draw an actually nice background  | josiah |
+| ⬜️ |  draw an actually nice background  | joe |
+| ⬜️ |  draw some currency (or no... just use those fire sprites?)  | josiah |
+| ✅ |  draw an actually nice character  | josiah |
+| ⬜️ |  draw the character's get-hurt frame, in-air frame, and throw-fireball frame  | josiah |
+| ⬜️ |  draw the fireball  | josiah |
 | ✅ |  draw gold spikes  | josiah |
 | ✅ |  draw road paved in gold  | josiah |
 | ✅ |  (possibly) corners for road paved in gold  | josiah |
-| ⬜️ |  draw floating, collectable fire  | josiah |
-| ⬜️ |  make the user interface  | josiah |
-| ⬜️ |  draw an actually nice character + death animation + two modes of being: evil wizard, enlightened priest, with some sort of ability like shooting fireballs when in hell, making a pulse of goodness (malay, also collects stuff) when in heaven | josiah |
+| ✅ |  draw floating, collectable fire  | josiah |
+| ✅ |  draw basic gumba-like enemies  | josiah |
+| ✅ |  draw lazers  | josiah |
+| ✅ |  draw two kinds of keys  | josiah |
+| ✅ |  draw gates that correspond to the keys  | josiah |
 | ✅ |  draw an actually nice other type of block (metal?)  | josiah |
-| ⬜️ |  draw lazers + enemies + key + gate  | josiah |
-| ⬜️ |  (possibly) draw actually nice extra decorations for game (like lava or gold on the stones)  | josiah |
-| ⬜️ |  figure out how the audio's gonna work  | josiah + zack |
+| ✅ |  draw key + gate  | josiah |
+| ⬜️ |  figure out how the audio's gonna work, and get the audio clips  | josiah |
 | ⬜️ |  design the whole world  | josiah |
 | ⬜️ |  write the whole story  | josiah + zack |
 | ⬜️ |  design and make the whole UI + corresponding icons  | josiah |
