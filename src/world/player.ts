@@ -54,7 +54,7 @@ class Player extends SpriteClass {
   }
 }
 
-export default function CreatePlayer() {
+export default function CreatePlayer(unit: number) {
   const player = new Player({
     x: 50, // starting x,y position of the sprite
     y: 100,
