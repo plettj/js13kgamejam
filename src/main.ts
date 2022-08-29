@@ -1,7 +1,9 @@
-import { init, Sprite, GameLoop, TileEngine } from "kontra";
+import { GameLoop, init, initKeys, TileEngine } from "kontra";
+import loadAssets, { bgImage } from "./assets";
 import worldMap from "./world/map";
+import CreatePlayer from "./world/player";
 
-const { canvas } = init();
+const { canvas, context } = init();
 
 const WINDOW_SIZE = {
   x: 16,
@@ -26,37 +28,32 @@ window.onresize = () => {
   unit = calculateUnit();
 };
 
-let sprite = Sprite({
-  x: 0, // starting x,y position of the sprite
-  y: 0,
-  color: "blue", // fill color of the sprite rectangle
-  width: unit, // width and height of the sprite rectangle
-  height: unit,
-  dx: 0, // move the sprite 2px to the right every frame
-});
-
 async function main() {
+  await loadAssets();
+  initKeys();
+
+  const player = CreatePlayer();
+
   const tileMap = await worldMap();
   const tileEngine = TileEngine(tileMap);
+
+  tileEngine.add(player);
 
   const loop = GameLoop({
     clearCanvas: true,
     // create the main game loop
-    update: function () {
-      // update the game state
-      sprite.update();
-
-      // wrap the sprites position when it reaches
-      // the edge of the screen
-      if (sprite.x > canvas.width) {
-        sprite.x = -sprite.width;
+    update: function (dt) {
+      if (tileEngine.layerCollidesWith("blocks", player)) {
+        player.dy -= 10;
       }
+      // update the game state
+      player.update(dt);
     },
     render: function () {
       // render the game state
-
+      context.drawImage(bgImage, 0, 0, canvas.width, canvas.height);
       tileEngine.render();
-      sprite.render();
+      player.render();
     },
   });
 
