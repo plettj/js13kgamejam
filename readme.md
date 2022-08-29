@@ -12,11 +12,10 @@
 | ✅ |  draw an actually nice tileset  | josiah |
 | ✅ |  draw semisolids for tileset  | josiah |
 | ✅ |  finalize the design of all the elements of the game  | josiah |
-| ⬜️ |  draw an actually nice background  | joe |
-| ⬜️ |  draw some currency (or no... just use those fire sprites?)  | josiah |
+| ✅ |  draw a background  | josiah |
+| ✅ |  draw some currency (or no... just use those fire sprites?)  | josiah |
 | ✅ |  draw an actually nice character  | josiah |
-| ⬜️ |  draw the character's get-hurt frame, in-air frame, and throw-fireball frame  | josiah |
-| ⬜️ |  draw the fireball  | josiah |
+| ✅ |  draw the character's get-hurt frame, in-air frame, and throw-fireball frame  | josiah |
 | ✅ |  draw gold spikes  | josiah |
 | ✅ |  draw road paved in gold  | josiah |
 | ✅ |  (possibly) corners for road paved in gold  | josiah |
