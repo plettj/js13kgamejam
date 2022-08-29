@@ -2,36 +2,36 @@
 
 ### Progress
 
-| Done |      Task      | Assignment   |
-| :--: | :------------: | ------------ |
-| ✅ |  Canvas size is automatic  | josiah + zack |
-| ✅ |  make a default tileset with 10x10 images  | josiah |
-| ⬜️ |  use the default tileset without it being fuzzy  | zack |
-| ⬜️ |  get the controls working for the character (consult josiah if unsure about UX decisions)  | zack |
-| ⬜️ |  get physics working for allllllllll of the stuffffffffffffff  | zack |
-| ✅ |  draw an actually nice tileset  | josiah |
-| ✅ |  draw semisolids for tileset  | josiah |
-| ✅ |  finalize the design of all the elements of the game  | josiah |
-| ✅ |  draw a background  | josiah |
-| ✅ |  draw some currency (or no... just use those fire sprites?)  | josiah |
-| ✅ |  draw an actually nice character  | josiah |
-| ✅ |  draw the character's get-hurt frame, in-air frame, and throw-fireball frame  | josiah |
-| ✅ |  draw gold spikes  | josiah |
-| ✅ |  draw road paved in gold  | josiah |
-| ✅ |  (possibly) corners for road paved in gold  | josiah |
-| ✅ |  draw floating, collectable fire  | josiah |
-| ✅ |  draw basic gumba-like enemies  | josiah |
-| ✅ |  draw lazers  | josiah |
-| ✅ |  draw two kinds of keys  | josiah |
-| ✅ |  draw gates that correspond to the keys  | josiah |
-| ✅ |  draw an actually nice other type of block (metal?)  | josiah |
-| ✅ |  draw key + gate  | josiah |
-| ⬜️ |  figure out how the audio's gonna work, and get the audio clips  | josiah |
-| ⬜️ |  design the whole world  | josiah |
-| ⬜️ |  write the whole story  | josiah + zack |
-| ⬜️ |  design and make the whole UI + corresponding icons  | josiah |
-| ⬜️ |  if josiah finishes all other tasks here listed, he will consider his job complete!!!  | josiah |
-| ⬜️ |  if zack does all the things that josiah isn't on the list to do, then we should be totally boppin'!!!  | zack |
+| Done |                                                 Task                                                  | Assignment    |
+| :--: | :---------------------------------------------------------------------------------------------------: | ------------- |
+|  ✅  |                                       Canvas size is automatic                                        | josiah + zack |
+|  ✅  |                               make a default tileset with 10x10 images                                | josiah        |
+|  ✅  |                            use the default tileset without it being fuzzy                             | zack          |
+| ⬜️  |       get the controls working for the character (consult josiah if unsure about UX decisions)        | zack          |
+| ⬜️  |                     get physics working for allllllllll of the stuffffffffffffff                      | zack          |
+|  ✅  |                                     draw an actually nice tileset                                     | josiah        |
+|  ✅  |                                      draw semisolids for tileset                                      | josiah        |
+|  ✅  |                          finalize the design of all the elements of the game                          | josiah        |
+|  ✅  |                                           draw a background                                           | josiah        |
+|  ✅  |                      draw some currency (or no... just use those fire sprites?)                       | josiah        |
+|  ✅  |                                    draw an actually nice character                                    | josiah        |
+|  ✅  |              draw the character's get-hurt frame, in-air frame, and throw-fireball frame              | josiah        |
+|  ✅  |                                           draw gold spikes                                            | josiah        |
+|  ✅  |                                        draw road paved in gold                                        | josiah        |
+|  ✅  |                               (possibly) corners for road paved in gold                               | josiah        |
+|  ✅  |                                    draw floating, collectable fire                                    | josiah        |
+|  ✅  |                                     draw basic gumba-like enemies                                     | josiah        |
+|  ✅  |                                              draw lazers                                              | josiah        |
+|  ✅  |                                        draw two kinds of keys                                         | josiah        |
+|  ✅  |                                draw gates that correspond to the keys                                 | josiah        |
+|  ✅  |                          draw an actually nice other type of block (metal?)                           | josiah        |
+|  ✅  |                                            draw key + gate                                            | josiah        |
+| ⬜️  |                    figure out how the audio's gonna work, and get the audio clips                     | josiah        |
+| ⬜️  |                                        design the whole world                                         | josiah        |
+| ⬜️  |                                         write the whole story                                         | josiah + zack |
+| ⬜️  |                          design and make the whole UI + corresponding icons                           | josiah        |
+| ⬜️  |         if josiah finishes all other tasks here listed, he will consider his job complete!!!          | josiah        |
+| ⬜️  | if zack does all the things that josiah isn't on the list to do, then we should be totally boppin'!!! | zack          |
 
 ### Concept:
 
@@ -45,7 +45,7 @@ Thread the needle between enlightenment and early death, in order to get to the 
 Every time you do something that gives you an advantage, you lose time in that attempt, but gain future chances.
 
 - Open-world platformer, with a sort of heaven-hell visual and storyline theme.
-- You can die from losing all your health... but also from gaining *too much* health! Your survival is an eternal balance between extremes.
+- You can die from losing all your health... but also from gaining _too much_ health! Your survival is an eternal balance between extremes.
 - This means there are two types of enemies: ones that add health and ones that take it away.
 - If you have low health, "good" enemies start becoming "bad" enemies so it's even harder for you to return to equilibrium.
 - When you start, there is either a ghost [or possibly two, one enlightened one and one death one??] that chases you, or some sort of counter, forcing you to fail early.
@@ -61,8 +61,8 @@ Every time you do something that gives you an advantage, you lose time in that a
 
 ##### Power-ups
 
-- 
+-
 
 ### Plan
 
-- 
+-

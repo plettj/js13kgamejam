@@ -1,6 +1,4 @@
-import { SpriteClass } from "kontra";
-import { keyPressed } from "kontra";
-import { GRAVITY } from "../constants";
+import { keyPressed, SpriteClass } from "kontra";
 
 class Player extends SpriteClass {
   speed = 10;
@@ -15,7 +13,7 @@ class Player extends SpriteClass {
     super(props);
   }
 
-  handleJump(dt: number) {
+  private handlePhysics(dt: number) {
     const v = Math.sqrt((this.velocity.x ^ 2) + (this.velocity.y ^ 2));
     if (v > 10) {
       const vs = this.maxVelocity / v;
@@ -36,6 +34,7 @@ class Player extends SpriteClass {
       this.dx = 0;
     }
     if (keyPressed("space")) {
+      // https://2dengine.com/?p=platformers
       this.jumping = true;
       const g = (2 * this.jumpHeight) / (this.timeToApex ^ 2);
       const initJumpVelocity = Math.sqrt(2 * g * this.jumpHeight);
@@ -47,12 +46,11 @@ class Player extends SpriteClass {
 
       this.dy = -initJumpVelocity;
     } else {
+      this.jumping = false;
       this.dy = this.termVelocity;
     }
 
-    this.handleJump(dt);
-
-    // handle jump
+    this.handlePhysics(dt);
   }
 }
 
