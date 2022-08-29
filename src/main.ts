@@ -1,5 +1,5 @@
 import { GameLoop, init, initKeys, TileEngine } from "kontra";
-import loadAssets, { bgImage } from "./assets";
+import loadAssets from "./assets";
 import worldMap from "./world/map";
 import CreatePlayer from "./world/player";
 
@@ -51,7 +51,6 @@ async function main() {
     },
     render: function () {
       // render the game state
-      context.drawImage(bgImage, 0, 0, canvas.width, canvas.height);
       tileEngine.render();
       player.render();
     },
