@@ -6,8 +6,8 @@ import CreatePlayer from "./world/player";
 const { canvas, context } = init();
 
 const WINDOW_SIZE = {
-  x: 16,
-  y: 12,
+  x: 12,
+  y: 9,
 };
 const ASPECT_RATIO = WINDOW_SIZE.x / WINDOW_SIZE.y;
 
@@ -16,9 +16,13 @@ function calculateUnit() {
     Math.floor(
       (window.innerWidth / window.innerHeight > ASPECT_RATIO
         ? Math.floor(window.innerHeight / WINDOW_SIZE.y)
-        : Math.floor(window.innerWidth / WINDOW_SIZE.x)) / 2
-    ) * 2;
+        : Math.floor(window.innerWidth / WINDOW_SIZE.x)) / 4
+    ) * 4;
   document.body.style.setProperty("--unit", newUnit + "px");
+
+  canvas.width = 10 * WINDOW_SIZE.x;
+  canvas.height = 10 * WINDOW_SIZE.y;
+
   return newUnit;
 }
 
@@ -34,7 +38,7 @@ async function main() {
 
   const player = CreatePlayer();
 
-  const tileMap = await worldMap();
+  const tileMap = await worldMap(WINDOW_SIZE);
   const tileEngine = TileEngine(tileMap);
 
   tileEngine.add(player);
