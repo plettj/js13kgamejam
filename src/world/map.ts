@@ -1,8 +1,6 @@
-import loadAssets from "../assets";
+import { tilemap, tileset } from "../assets";
 
 export default async function worldMap() {
-  const { tilemap, tileset } = await loadAssets();
-
   for (const set of tilemap.tilesets) {
     delete set["source"];
     set["image"] = tileset;
