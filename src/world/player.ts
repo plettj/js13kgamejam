@@ -13,7 +13,7 @@ class Player extends SpriteClass {
     super(props);
   }
 
-  private handlePhysics(dt: number) {
+  private handlePhysics() {
     const v = Math.sqrt((this.velocity.x ^ 2) + (this.velocity.y ^ 2));
     if (v > 10) {
       const vs = this.maxVelocity / v;
@@ -50,11 +50,11 @@ class Player extends SpriteClass {
       this.dy = this.termVelocity;
     }
 
-    this.handlePhysics(dt);
+    this.handlePhysics();
   }
 }
 
-export default function CreatePlayer(unit: number) {
+export default function CreatePlayer() {
   const player = new Player({
     x: 50, // starting x,y position of the sprite
     y: 100,

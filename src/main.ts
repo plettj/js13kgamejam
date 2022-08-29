@@ -36,7 +36,7 @@ async function main() {
   await loadAssets();
   initKeys();
 
-  const player = CreatePlayer(unit);
+  const player = CreatePlayer();
 
   const tileMap = await worldMap();
   const tileEngine = TileEngine(tileMap);
