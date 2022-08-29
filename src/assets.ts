@@ -1,4 +1,4 @@
-import TilesetSrc from "./assets/tileset.png";
+import TilesetSrc from "./assets/tileset.webp";
 import tilemap from "./assets/mapFile.json";
 
 const tileset = new Image();

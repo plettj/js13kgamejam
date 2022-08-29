@@ -3,7 +3,7 @@ import loadAssets from "./assets";
 import worldMap from "./world/map";
 import CreatePlayer from "./world/player";
 
-const { canvas, context } = init();
+const { canvas, context } = init("MainCanvas");
 
 const WINDOW_SIZE = {
   x: 12,
@@ -44,6 +44,7 @@ async function main() {
   tileEngine.add(player);
 
   const loop = GameLoop({
+    context: context,
     clearCanvas: true,
     // create the main game loop
     update: function (dt) {
