@@ -20,8 +20,8 @@ function calculateUnit() {
     ) * 2;
   document.body.style.setProperty("--unit", newUnit + "px");
 
-  canvas.width = newUnit * 16;
-  canvas.height = newUnit * 12;
+  canvas.width = 16 * 10;
+  canvas.height = 12 * 10;
 
   return newUnit;
 }
