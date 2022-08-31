@@ -20,8 +20,8 @@ function calculateUnit() {
     ) * 4;
   document.body.style.setProperty("--unit", newUnit + "px");
 
-  canvas.width = 10 * WINDOW_SIZE.x;
-  canvas.height = 10 * WINDOW_SIZE.y;
+  canvas.width = 15 * WINDOW_SIZE.x;
+  canvas.height = 15 * WINDOW_SIZE.y;
 
   return newUnit;
 }
@@ -48,10 +48,15 @@ async function main() {
     clearCanvas: true,
     // create the main game loop
     update: function (dt) {
-      if (tileEngine.layerCollidesWith("blocks", player)) {
-        player.dy -= 10;
-      }
       // update the game state
+      if (tileEngine.layerCollidesWith("blocks", player)) {
+        while (tileEngine.layerCollidesWith("blocks", player)) {
+          player.y -= 1;
+        }
+        player.onGround = true;
+      } else {
+        player.onGround = false;
+      }
       player.update(dt);
     },
     render: function () {
